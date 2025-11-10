@@ -1,0 +1,23 @@
+{
+    "name": "scribd-tool",
+    "version": "1.0.0",
+    "description": "Scribd document downloader and PDF converter",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "scribd",
+        "pdf",
+        "downloader"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.2",
+        "cheerio": "^1.0.0-rc.12",
+        "pdf-lib": "^1.17.1",
+        "fs-extra": "^11.2.0"
+    }
+}
