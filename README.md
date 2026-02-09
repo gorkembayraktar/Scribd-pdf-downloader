@@ -1,6 +1,5 @@
-# Scribd PDF Downloader 📚
-
-Scribd dokümanlarını indirip PDF formatına dönüştüren basit ve kullanışlı bir Node.js uygulaması.
+# 📚 Scribd PDF Downloader: Ücretsiz Doküman İndirme Aracı
+Scribd PDF Downloader, Scribd üzerindeki dokümanları, kitapları ve ders notlarını saniyeler içinde yüksek kaliteli PDF formatına dönüştüren, açık kaynaklı bir Node.js aracıdır. Üyelik veya tarayıcı eklentisi gerektirmeden belgeleri çevrimdışı okumanız için tasarlanmıştır.
 
 ## 📋 İçindekiler
 
@@ -14,6 +13,20 @@ Scribd dokümanlarını indirip PDF formatına dönüştüren basit ve kullanı�
 - [Detaylı Kurulum Rehberi](#detaylı-kurulum-rehberi) 📖
 
 ---
+### 🟢 Node.js Nedir?
+Node.js, yazdığın kodların bilgisayarında çalışmasını sağlayan bir "çevirmendir". Normalde sadece internet tarayıcılarında çalışan JavaScript dilini, bilgisayarında güçlü bir uygulama motoruna dönüştürür. Bu araçta ise sayfaları okuma ve PDF oluşturma görevlerini üstlenir.
+
+### 🛠️ Hızlı Kurulum
+- İndir: nodejs.org sitesinden LTS sürümünü yükle.
+
+### ⚠️ Komut(cmd) satırında "npm" veya "node" Tanınmıyor Hatası?
+Eğer komutları yazdığında hata alıyorsan, kurulumdan sonra bilgisayarını yeniden başlatman yeterlidir. Bu, Windows'un yeni kurulan Node.js yolunu tanımasını sağlar.
+
+**Hala çalışmıyorsa:**
+
+- Başlat'a "Ortam Değişkenleri" yazıp girin.
+- Path satırını seçip Düzenle deyin.
+- C:\Program Files\nodejs\ yolunun listede olduğundan emin olun, yoksa Yeni diyerek ekleyin.
 
 ## ⚡ Hızlı Başlangıç
 
